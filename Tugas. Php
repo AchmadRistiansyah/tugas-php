@@ -1,0 +1,15 @@
+<?php 
+ 	class pesawat
+ 	{
+ 		public $merk;
+
+ 		public function terbangkan()
+ 		{
+ 			return 'Terbangkan pesawat '.$this->merk;
+  		}
+ 	}
+
+ 	$pesawat1 = new pesawat();
+ 	$pesawat1->merk = 'Boeing';
+ 	echo $pesawat1->terbangkan();
+  ?>
